@@ -19,7 +19,7 @@ let g:colors_name="omnster"
 
 hi Normal		ctermfg=7		ctermbg=232		guibg=#000000	guifg=#808080
 "hi Cursor			
-hi CursorLine		cterm=none		ctermbg=237		guibg=#262626
+hi CursorLine		cterm=none		ctermbg=234		guibg=#262626
 "hi CursorIM	
 "hi Directory	
 "hi DiffAdd		
