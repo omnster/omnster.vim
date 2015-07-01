@@ -67,6 +67,6 @@ hi Todo			ctermfg=0		ctermbg=11
 
 " Indent Guides Plugin 
 		
-hi IndentGuidesOdd	ctermbg=233
-hi IndentGuidesEven	ctermbg=235
+" hi IndentGuidesOdd	ctermbg=233
+" hi IndentGuidesEven	ctermbg=235
 " vim: ts=8:sts=8:sw=8
