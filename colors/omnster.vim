@@ -1,9 +1,9 @@
 " A colorscheme
 " Maintainer:   omnster <rkhbvs@gmail.com>
 
-" This is a clone of the default vim colorscheme with minor changes to suit
-" terminals with 256 colors better: replaced are colors for folds and for
-" gutter (the column with marks)
+" This is something very close to the original colorscheme vim is shipped
+" with. The only minor replacements concern folds, sign column and completion
+" popup menu. I do not use gui, hence only the terminal version is present.
 "
 " The colorscheme is built with major help of the template by Hans Fugal taken
 " from http://www.vim.org/scripts/script.php?script_id=106 .
@@ -65,8 +65,11 @@ hi Ignore		ctermfg=0
 hi Error		ctermfg=15		ctermbg=9		
 hi Todo			ctermfg=0		ctermbg=11
 
-" Indent Guides Plugin 
-		
-" hi IndentGuidesOdd	ctermbg=233
-" hi IndentGuidesEven	ctermbg=235
+" Popup menu
+
+hi Pmenu		ctermfg=239		ctermbg=233"{{{
+hi PmenuSel		ctermfg=235		ctermbg=247
+hi PmenuSbar		ctermfg=232		ctermbg=232
+hi PmenuThumb		ctermfg=240		ctermbg=240"}}}
+
 " vim: ts=8:sts=8:sw=8
