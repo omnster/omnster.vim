@@ -22,10 +22,10 @@ hi Normal		ctermfg=7		ctermbg=232		guibg=#000000	guifg=#808080
 hi CursorLine		cterm=none		ctermbg=234		guibg=#262626
 "hi CursorIM	
 "hi Directory	
-"hi DiffAdd		
-"hi DiffChange	
-"hi DiffDelete	
-"hi DiffText	
+hi DiffAdd		ctermbg=17	
+hi DiffChange		ctermbg=52
+hi DiffDelete		ctermbg=236	
+hi DiffText		cterm=reverse		ctermfg=9		ctermbg=16
 "hi ErrorMsg	
 "hi VertSplit	
 hi Folded		ctermfg=6		ctermbg=234		guibg=#101010	guifg=#009090
