@@ -1,8 +1,6 @@
 # omnster.vim
 
-A dark vim colorscheme for terminal, very close to the default one.
-
-I replaced colors for folds, cursorline, gutter (fold column) and completion popup menu to lower contrast. In other words, pretty much all the appearances of cyan and magenta were modified.
+The default colorscheme for terminal vim with magenta and cyan replaced to lower contrast.
 
 The colorscheme is built on top of the [template][] by Hans Fugal.
 
