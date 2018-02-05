@@ -18,20 +18,20 @@ let g:colors_name="omnster"
 
 
 hi Normal		ctermfg=7		ctermbg=232		guibg=#000000	guifg=#808080
-"hi Cursor			
+"hi Cursor
 hi CursorLine		cterm=none		ctermbg=234		guibg=#262626
-"hi CursorIM	
-"hi Directory	
-hi DiffAdd		ctermbg=17	
+"hi CursorIM
+"hi Directory
+hi DiffAdd		ctermbg=17
 hi DiffChange		ctermbg=52
-hi DiffDelete		ctermbg=236	
+hi DiffDelete		ctermbg=236
 hi DiffText		cterm=reverse		ctermfg=9		ctermbg=16
-"hi ErrorMsg	
-"hi VertSplit	
+"hi ErrorMsg
+"hi VertSplit
 hi Folded		ctermfg=6		ctermbg=234		guibg=#101010	guifg=#009090
-hi FoldColumn		ctermfg=6		ctermbg=234		guibg=#101010	guifg=#001010 
-hi SignColumn		ctermfg=6		ctermbg=234		guibg=#101010	guifg=#001010 
-hi ColorColumn		term=reverse		ctermbg=235		guibg=#242321	
+hi FoldColumn		ctermfg=6		ctermbg=234		guibg=#101010	guifg=#001010
+hi SignColumn		ctermfg=6		ctermbg=234		guibg=#101010	guifg=#001010
+hi ColorColumn		term=reverse		ctermbg=235		guibg=#242321
 hi IncSearch		cterm=none		ctermfg=0		ctermbg=14
 hi LineNr		ctermfg=11
 hi MatchParen		ctermbg=238
@@ -41,28 +41,28 @@ hi NonText		ctermfg=12
 hi Question		ctermfg=10
 hi Search		ctermfg=1		ctermbg=11
 hi SpecialKey		ctermfg=12
-"hi StatusLine	
-"hi StatusLineNC	
+"hi StatusLine
+"hi StatusLineNC
 hi Title		ctermfg=5		cterm=bold
 hi Visual		ctermfg=15		ctermbg=8
-"hi VisualNOS	
-"hi WarningMsg	
-"hi WildMenu	
-"hi Menu		
-"hi Scrollbar	
-"hi Tooltip		
+"hi VisualNOS
+"hi WarningMsg
+"hi WildMenu
+"hi Menu
+"hi Scrollbar
+"hi Tooltip
 
 " syntax highlighting groups
 hi Comment		ctermfg=6
 hi Constant 		ctermfg=13
 hi Identifier		ctermfg=6		cterm=bold
 hi Statement		ctermfg=11		term=bold
-hi PreProc		ctermfg=12	
-hi Type			ctermfg=2	
-hi Special		ctermfg=9	
-hi Underlined		ctermfg=12		cterm=underline	
-hi Ignore		ctermfg=0	
-hi Error		ctermfg=15		ctermbg=9		
+hi PreProc		ctermfg=12
+hi Type			ctermfg=2
+hi Special		ctermfg=9
+hi Underlined		ctermfg=12		cterm=underline
+hi Ignore		ctermfg=0
+hi Error		ctermfg=15		ctermbg=9
 hi Todo			ctermfg=0		ctermbg=11
 
 " Popup menu
