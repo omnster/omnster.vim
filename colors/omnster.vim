@@ -63,7 +63,7 @@ hi Special		ctermfg=9
 hi Underlined		ctermfg=12		cterm=underline
 hi Ignore		ctermfg=0
 hi Error		ctermfg=15		ctermbg=9
-hi Todo			ctermfg=0		ctermbg=11
+hi Todo			ctermfg=8		ctermbg=6
 
 " Popup menu
 
@@ -71,5 +71,14 @@ hi Pmenu		ctermfg=239		ctermbg=233"{{{
 hi PmenuSel		ctermfg=235		ctermbg=247
 hi PmenuSbar		ctermfg=232		ctermbg=232
 hi PmenuThumb		ctermfg=240		ctermbg=240"}}}
+
+" StatusLine
+
+" hi StatusLineNC		ctermfg=229		ctermbg=3
+" 
+" hi User1 ctermfg=007 ctermbg=239 guibg=#4e4e4e guifg=#adadad
+" hi User2 ctermfg=007 ctermbg=236 guibg=#303030 guifg=#adadad
+" hi User3 ctermfg=236 ctermbg=236 guibg=#303030 guifg=#303030
+" hi User4 ctermfg=239 ctermbg=239 guibg=#4e4e4e guifg=#4e4e4e
 
 " vim: ts=8:sts=8:sw=8
