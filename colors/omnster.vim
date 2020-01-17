@@ -5,8 +5,8 @@
 " with. The only minor replacements concern folds, sign column and completion
 " popup menu. I do not use gui, hence only the terminal version is present.
 "
-" The colorscheme is built with major help of the template by Hans Fugal taken
-" from http://www.vim.org/scripts/script.php?script_id=106 .
+" The colorscheme is built from the template by Hans Fugal taken from
+" http://www.vim.org/scripts/script.php?script_id=106 .
 
 
 set background=dark
@@ -20,6 +20,7 @@ let g:colors_name="omnster"
 hi Normal		ctermfg=7		ctermbg=232		guibg=#000000	guifg=#808080
 "hi Cursor
 hi CursorLine		cterm=none		ctermbg=234		guibg=#262626
+hi CursorLineNr		cterm=none
 "hi CursorIM
 "hi Directory
 hi DiffAdd		ctermbg=17
